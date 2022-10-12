@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.header {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: goldenrod;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.header-left {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.header-left h2 a {
+  text-decoration: none;
+}
+.header-left h2 {
+  font-size: 22px;
+  color: aquamarine;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-right ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+}
+.header-right ul li a {
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-right ul li a:hover {
+  color: beige;
+}
+.header-right ul li a {
+  text-decoration: none;
+}
+#information {
+  height: 500px;
+  background: #92b9e3;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.information-list {
+  position: absolute;
+  width: 140px;
+  height: 120px;
+  background: black;
+  z-index: 10;
+  padding: 10px 10px;
+  margin-top: 5px;
+  display: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.information-item {
+  margin: 2px 0;
+}
+.header-right ul li a:first-child:hover .information-list {
+  display: block;
+}
+.information-left button {
+  width: 300px;
+  height: 400px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  background: ghostwhite;
+}
+.information-left img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+  border-radius: 20px;
+}
+.information-right {
+  position: absolute;
+  right: 100px;
+  list-style: none;
+}
+.information-top li a {
+  text-decoration: none;
+}
+.information-top li {
+  font-size: 20px;
+  color: #5d7b6f;
+  font-weight: bold;
+  margin-bottom: 08px;
+}
+.information-top li a {
+  margin: 0px 10px;
+}
+.information-between {
+  margin: 20px 0;
+}
+.information-between h2 {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: green;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.information-bottom {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#about-me {
+  height: 150px;
+  background: #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#about-me h1 {
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#about-me p {
+  padding: 10px 10px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#skills {
+  height: 150px;
+  background: rgb(34, 178, 132);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+#skills h1 {
+  padding: 10px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+#skills ul li a {
+  text-decoration: none;
+}
+#skills ul li {
+  list-style: none;
+}
+#skills ul {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+#learn-school {
+  height: 340px;
+  background-color: chartreuse;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#learn-school h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#learn-school ul {
+  margin: 10px 5px;
+}
+#learn-school ul li {
+  list-style: none;
+}
+#learn-school ul li a {
+  text-decoration: none;
+}
+#learn-school ul li {
+  font-size: 22px;
+  color: #5d7b6f;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#learn-school ul li p {
+  margin-bottom: 5px;
+}
