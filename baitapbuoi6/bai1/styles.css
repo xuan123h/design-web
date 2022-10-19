@@ -39,8 +39,11 @@ a {
   transition: 0.4s;
 }
 .content-item-text {
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 .content-item-desc {
+  width: 200px;
 }
 .content-item-icons {
   display: flex;
